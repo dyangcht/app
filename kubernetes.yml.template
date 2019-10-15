@@ -39,5 +39,6 @@ spec:
     targetPort: ${PORT}
   selector:
     app: myapp
-  type: NodePort
+  # type: NodePort
+  type: LoadBalancer
 ---
